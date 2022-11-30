@@ -1,0 +1,43 @@
+body {
+    margin: 50px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+h2 {
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.content {
+    background-color: #111;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 40px 40px 30px 50px;
+}
+
+p {
+    color: #b2b2b2;
+}
+
+span {
+    color: #febe01;
+}
+
+.product-name {
+    color: #fff;
+}
+
+a {
+    padding: 10px;
+    display: inline-block;
+    color: #332200;
+    background-color: #febe01;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+}
