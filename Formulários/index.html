@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style/style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form action="./">
+			<label for="nome">Nome</label>
+			<input
+				placeholder="José Josué Júnior"
+				type="text"
+				id="nome"
+				name="nome"
+			/>
+
+			<label for="senha">Senha</label>
+			<input disabled type="password" id="senha" name="senha" />
+
+			<label for="email">Email</label>
+			<input
+				placeholder="exemplo@email.com"
+				type="email"
+				id="email"
+				name="email"
+				required
+			/>
+
+			<label for="idade">Idade</label>
+			<input
+				placeholder="25"
+				type="number"
+				id="idade"
+				name="idade"
+				required
+			/>
+
+			<label for="data">Data de nascimento</label>
+			<input type="date" id="data" name="data" />
+
+			<div class="checkbox-container">
+				<input
+					class="checkbox"
+					type="checkbox"
+					id="termos"
+					name="termos"
+				/>
+				<label for="termos" class="termos"
+					>Eu li e concordo com os termos de aceite.</label
+				>
+			</div>
+
+			<div class="checkbox-container">
+				<input
+					class="checkbox"
+					type="checkbox"
+					id="anuncio"
+					name="anuncio"
+				/>
+				<label for="anuncio" class="termos"
+					>Eu desejo receber notícias de marketing.</label
+				>
+			</div>
+
+			<div class="radio-container">
+				<input
+					class="radio"
+					type="radio"
+					id="retirada"
+					name="entrega"
+				/>
+				<label for="retirada" class="termos">Retirar no local</label>
+			</div>
+			<div class="radio-container">
+				<input class="radio" type="radio" id="entrega" name="entrega" />
+				<label for="entrega" class="termos">Entrega em casa</label>
+			</div>
+
+			<button>Enviar</button>
+		</form>
+	</body>
+</html>

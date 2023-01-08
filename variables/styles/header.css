@@ -1,0 +1,26 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 100px;
+    height: 90px;
+    text-align: center;
+}
+
+.header-lista {
+    display: flex;
+    gap: 100px;
+}
+
+.lista-conteudo a{
+    color: var(--primary-color);
+    font-size: var(--font-medium);
+    font-family: var(--font-type-regular);
+}
+
+.header-logo {
+    font-family: var(--font-type-regular);
+    font-weight: var(--font-type-bold);
+}

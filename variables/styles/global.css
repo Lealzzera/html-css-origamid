@@ -1,0 +1,24 @@
+:root {
+    /* colors */
+    --primary-color: #e35;
+    /* font family */
+    --font-medium: 2rem;
+    --font-type-regular: 'Fira Sans', sans-serif;
+    --font-type-bold: 700;
+}
+
+body {
+    margin: 0px;
+}
+
+ul, li, p, h1, h2, h3, h4, a {
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,38 @@
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+form input {
+    padding: 10px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 40px;
+}
+
+.termos {
+    display: inline;
+}
+
+.checkbox, .radio {
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.checkbox-container, .radio-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+}
